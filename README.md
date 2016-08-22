@@ -6,18 +6,28 @@ Prerequisites:
 a) Maven  
 b) Java 1.7 or 1.8  
 
-Clone the project to your local folder:  
+Clone the project to your local folder: 
+```
 git clone https://github.com/vkrivcov/jpm-super-simple-stocks.git
+```
 
 Enter cloned project directory:  
+```
 cd jpm-super-simple-stocks
+```
 
-Package the project using mvn (unit tests will be automatically invoked, but you can run them separately using "mvn test" command)  
+Package the project using mvn (unit tests will be automatically invoked, but you can run them separately using "mvn test" command):  
+```
 mvn clean package
+```
 
 Run the Super Simple Stocks Emulator application:  
+```
 java -jar target\super-simple-stock-1.0-SNAPSHOT.jar (windows)  
+```
+```
 java -jar target/super-simple-stock-1.0-SNAPSHOT.jar (linux)  
+```
 
 Usage of the emulator should be simple and self-explanatory i.e. simple select available example stock (initial user menu)
 and run stock manipulations emulator using specified options.
