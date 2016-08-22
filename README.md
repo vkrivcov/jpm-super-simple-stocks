@@ -16,8 +16,8 @@ cd jpm-super-simple-stocks
 mvn clean package
 
 4. Run the Super Simple Stocks Emulator application
-java -jar java -jar target\super-simple-stock-1.0-SNAPSHOT.jar (windows)
-java -jar java -jar target/super-simple-stock-1.0-SNAPSHOT.jar (linux)
+java -jar target\super-simple-stock-1.0-SNAPSHOT.jar (windows)
+java -jar target/super-simple-stock-1.0-SNAPSHOT.jar (linux)
 
 Usage of the emulator should be simple and self-explanatory i.e. simple select available example stock (initial user menu)
 and run stock manipulations emulator using specified options.
